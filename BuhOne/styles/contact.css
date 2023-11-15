@@ -1,0 +1,226 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Lato', 'Merriweather', sans-serif;
+
+}
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   text-align: centr;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+   min-width: 1920px;
+   height: 830px;
+   background-image: url('/images/contakt.png');
+   background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+
+}
+.wrap_content{
+ min-width: 100%;
+   min-height: 60%;
+text-align: center;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   gap: 9em;
+}
+.content {
+ max-width: 100%;
+   min-height: 60%;
+  display: flex;
+ align-items: center;
+ text-align: center;
+flex-direction: column;
+  
+  
+}
+/* form  */
+
+.content1 {
+   margin-top: -140px;
+   max-width: 200px;
+   min-height: 60px;
+ display: flex;
+ flex-direction:column;
+ text-align: center;
+ justify-content: center;
+
+}
+.form{
+color: #FFF;
+opacity: 0.1;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 138%;
+min-width: 125px;
+min-height: 16px;
+}
+.name-fields {
+   display: flex;
+   gap: 10em;
+  
+}
+.name-fields .form-group {
+   flex: 1;
+   
+
+}
+label {
+   display: block;
+   margin-bottom: 5px;
+   
+}
+.form-group {
+   margin-bottom: 20px;
+}
+.title{
+   min-width: 445px;
+   min-height: 47px;
+   color:  #FFF;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 144.555%;
+text-align: left; 
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 8px;
+   box-sizing: border-box;
+   margin-bottom: 10px;
+}
+
+button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-width: 270px;
+height: 60px;
+background-color: #005FA3;
+   color: #FFFFFF;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+}
+
+
+button:hover {
+   background-color: #042f64;
+}
+
+.contact-icons {
+   margin-top: 20px;
+}
+
+#name,#surname{
+   border: none;
+   border-bottom: 1px solid #FFF;
+   background: transparent; 
+   outline: none; 
+   color: #BDBDBD;
+font-family: Lato;
+font-size: 21px;
+font-style: normal;
+font-weight: 300;
+   min-width: 165px;
+   min-height: 21px;  
+}
+.form_name,.form_surname,.form_message{
+   color:  #FFF;
+   font-family: Lato;
+   font-size: 16px;
+   font-style: normal; 
+}
+p.content_text{
+   display: flex;
+align-items: center;
+justify-content: center;
+text-align: left;
+   max-width: 415px;
+   max-height: 23px;
+   color:  #FFF;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 138%;
+margin-top: 3em;  
+}
+.icon_box{
+   display: flex;
+   gap: 2em;
+}
+#icon{
+   margin-top: 3em;
+   max-width: 195px;
+max-height: 29px;
+   color:#FFFFFF;
+
+}
+.tel,.mail{
+   font-family: Lato;
+font-size: 21px;
+   max-width: 184px;
+   max-height: 29px;
+margin-left: 1em;
+   color: #FFF;
+}
+#message{
+   border: none;
+    border-bottom: 1px solid #FFF;
+    background: transparent; 
+    outline: none; 
+   color: #BDBDBD;
+   font-family: Lato;
+   font-size: 21px;
+   font-style: normal;   
+}
+.info{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+.info_box{
+   color:#F9F9F9 ;
+   min-width: 1920px;
+   min-height: 110px;
+   display: flex;
+   justify-content: center;
+   min-height: 110px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   gap: 23em;
+
+}
+.info_text{
+color: #000;
+text-align: right;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+}
+li:hover{
+   transform: scale(1.3);
+}

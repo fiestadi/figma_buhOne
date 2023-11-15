@@ -1,0 +1,142 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Lato', 'Merriweather', sans-serif;
+
+}
+.content_about{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+width: 100%;
+
+}
+.wraper_about{
+display: flex;
+justify-content:center;
+align-items:center;
+max-width: 1920px;
+min-height: 830px;
+background: #F9F9F9;
+}
+.div_about{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: stretch;
+flex-direction: column;
+}
+.title{
+   width: 155px;
+   height: 73px;
+   color: #BDBDBD;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+}
+.company_name{
+   width: 347px;
+   height: 67px;
+   color: #333;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+}
+.company_name1{
+   width: 347px;
+  min-height: 117px;
+   color:  #005FA3;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 900;  
+}
+.company_info{
+width: 65%;
+   height: 305px;
+   color: #000;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+}
+
+.deals_box {
+   margin-right: 5em;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2em;
+   grid-template-columns: repeat(2, 1fr); 
+   grid-template-rows: repeat(2, 1fr); 
+   gap: 2em;
+}
+ 
+ .item {
+max-width: 255px;
+height: 255px;
+flex-shrink: 0;
+box-sizing: border-box;
+padding: 10px;
+background-color:  #EBEBEB;
+}
+ 
+ .horizontal {
+   grid-column: span 1;  
+   grid-row: span 2;   
+}
+ 
+ .vertical {
+   grid-column: span 1; 
+   grid-row: span 2;   
+ }
+ #vertical{
+   background-color: #005FA3;
+ }
+ ul{
+   margin: 2em;
+   width: 50%;
+list-style-type: none;
+ }
+
+ .deal_number{
+width: 75px;
+height: 54px;
+color: #000;
+font-family: Lato;
+font-size: 55px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 5.5px;
+text-transform: uppercase;
+ }
+ .deal_title{
+margin-top: 3em;
+min-height: 70px;
+color: #000;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 700; 
+ }
+
+a.all_deal{
+   width: 30%;
+color: #005FA3;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#color_text{
+   color: #fff;
+}
+li:hover{
+   transform: scale(1.3);
+}
